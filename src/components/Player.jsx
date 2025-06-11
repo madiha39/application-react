@@ -1,7 +1,13 @@
 import React from "react";
 
 const Player = ({ player }) => (
-  <div className="card" style={{ width: "18rem", margin: "1rem" }}>
+  <div className="card player-card" style={{ width: "18rem", margin: "1rem" }}>
+    <img
+      src={player.image}
+      className="card-img-top"
+      alt={player.name}
+      style={{ height: "180px", objectFit: "cover" }}
+    />
     <div className="card-body">
       <h5 className="card-title">{player.name}</h5>
       <p className="card-text">
