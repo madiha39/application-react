@@ -1,3 +1,7 @@
+body {
+  background: #f3f6fa;
+}
+
 /* Flexbox layout for player list */
 .player-list {
   display: flex;
@@ -10,7 +14,7 @@
 
 /* Animation for player cards */
 .player-card {
-  background: #fff;
+  background: #babdbb;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   padding: 20px;
